@@ -1,0 +1,108 @@
+/* Seletor Universal */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Seletores Tags */
+
+header{
+    text-align: center;
+    background-color: steelblue;
+    padding: 10px;
+}
+
+footer{
+    text-align: center;
+    background-color: gray;
+}
+
+body{
+    background-color:lightgray;
+}
+
+div{
+    background-color:white;
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto; 
+}
+ 
+h1{
+    color: steelblue;
+    text-align: center;
+}
+
+iframe{
+    text-align: center;
+    margin: 0 auto;
+}
+
+nav{
+    height: 10px;
+    padding: 20px;
+}
+
+/*tabela: */
+table{
+    text-align: center;
+    margin: 0 auto;
+    width: 400px;
+    height: 110px;
+    background-color: white;
+}
+
+th{
+    background-color: steelblue;
+    color: white;
+}
+
+/*seletor */
+
+.textojustificado{
+    text-align: justify;
+}
+
+/* seletor único*/
+
+#textoazul{
+    color: steelblue;
+}
+
+/*botões pra navegar entre as páginas: */
+
+a{
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+a:link, a:visited{
+    color: #1867a9;
+}
+
+a:hover{
+   text-decoration: underline;
+}
+
+nav>span>a{
+    font-size: 1.25em;
+    padding: 9px 12px;
+}
+
+
+nav>span>a:link, nav>span>a:visited{
+    color: white;
+}
+
+nav>span>a:hover, .selecionado a{
+    background: #39f;
+    text-decoration: none;
+    border-radius: 10px 20px ;
+}
+
+
+
+
+
+
